@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre tabelas</title>
+</head>
+
+<body>
+
+    Podemos definir a largura em pixel ou porcentagem. Porcentagem define o tamanho da largura de acordo
+    o tamanho do navegador.
+    width='100%'
+    width='100px'
+    Com imagens é a mesma coisa, ocupa 100% da minha tela
+
+    colspan="" -> Tag para ser usado em tabelas. Serve para unir td
+    rowspan="" -> Mesma coisa que colspan, porém, faz a extensão da linha
+
+    <br>
+
+    <h2>Produtos</h2>
+    <table border="8" width="100%">
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço do produto</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 3.500,99 A</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>MacBook Pro</td>
+            <td>R$ 45.898,99</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Descontos</td>
+            <td colspan="2">Cupom Black Friday -R$ 104,99</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cupom Simples -R$ 10,99</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$ 35.954,34</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
